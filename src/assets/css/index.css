@@ -93,6 +93,8 @@ body {
 }
 .evaluate__score__item__lf .icon_answer {
   padding: 2px;
+  padding-left: 3px;
+  padding-right: 3px;
   border: 1px solid #f99390;
   border-radius: 3px;
 }

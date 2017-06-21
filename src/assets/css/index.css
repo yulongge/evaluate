@@ -74,12 +74,18 @@ body {
 .evaluate__score__item__lf__ask i {
   display: table-cell;
 }
+.evaluate__score__item__lf__ask i:last-child {
+  padding-left: 10px;
+}
 .evaluate__score__item__lf__answer {
   color: #444444;
   display: table;
 }
 .evaluate__score__item__lf__answer i {
   display: table-cell;
+}
+.evaluate__score__item__lf__answer i:last-child {
+  padding-left: 10px;
 }
 .evaluate__score__item__lf span {
   padding: .2rem;
@@ -101,9 +107,6 @@ body {
   border-radius: 5px;
   color: #f99390;
   display: inline-block;
-}
-.evaluate__score__item__lf .lf_words {
-  padding-left: 10px;
 }
 .evaluate__score__item__rt {
   flex: 1;

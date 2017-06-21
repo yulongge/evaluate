@@ -84,18 +84,10 @@ body {
 .evaluate__score__item__lf span {
   padding: .2rem;
 }
-.evaluate__score__item__lf .icon_ask:after {
-  content: "问";
-  width: 1.5rem;
-  height: 1.5rem;
-  border: 1px solid #83c3ff;
-  border-radius: 5px;
-  color: #83c3ff;
-  font-size: 1rem;
-  display: inline-block;
-  text-align: center;
-  margin-right: 1rem;
-  line-height: 1.5rem;
+.evaluate__score__item__lf .icon_ask {
+  padding: 3px;
+  border: 1px solid red;
+  border-radius: 3px;
 }
 .evaluate__score__item__lf .icon_answer:after {
   content: "答";
@@ -109,6 +101,9 @@ body {
   text-align: center;
   margin-right: 1rem;
   line-height: 1.5rem;
+}
+.evaluate__score__item__lf .lf_words {
+  padding-left: 10px;
 }
 .evaluate__score__item__rt {
   flex: 1;

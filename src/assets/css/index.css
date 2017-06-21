@@ -90,6 +90,8 @@ body {
   padding-right: 3px;
   border: 1px solid #83c3ff;
   border-radius: 5px;
+  color: #83c3ff;
+  display: inline-block;
 }
 .evaluate__score__item__lf .icon_answer {
   padding: 2px;
@@ -97,6 +99,8 @@ body {
   padding-right: 3px;
   border: 1px solid #f99390;
   border-radius: 5px;
+  color: #f99390;
+  display: inline-block;
 }
 .evaluate__score__item__lf .lf_words {
   padding-left: 10px;

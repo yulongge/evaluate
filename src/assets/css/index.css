@@ -84,7 +84,7 @@ body {
 .evaluate__score__item__lf span {
   padding: .2rem;
 }
-.evaluate__score__item__lf .icon_ask {
+.evaluate__score__item__lf .icon_ask:after {
   content: "问";
   width: 1.5rem;
   height: 1.5rem;
@@ -97,7 +97,7 @@ body {
   margin-right: 1rem;
   line-height: 1.5rem;
 }
-.evaluate__score__item__lf .icon_answer {
+.evaluate__score__item__lf .icon_answer:after {
   content: "答";
   width: 1.5rem;
   height: 1.5rem;

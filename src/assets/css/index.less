@@ -184,17 +184,19 @@ body {
 }
 
 .icon (@color: #83c3ff, @name: "问") {
-	content: @name;
-	width: 1.5rem;
-	height: 1.5rem;
-	border: 1px solid @color;
-	border-radius: 5px;
-	color: @color;
-	font-size: 1rem;
-	display: inline-block;
-	text-align: center;
-	margin-right: 1rem;
-	line-height: 1.5rem;
+	&:after {
+		content: @name;
+		width: 1.5rem;
+		height: 1.5rem;
+		border: 1px solid @color;
+		border-radius: 5px;
+		color: @color;
+		font-size: 1rem;
+		display: inline-block;
+		text-align: center;
+		margin-right: 1rem;
+		line-height: 1.5rem;
+	}
 }
 
 .line (@borderWidth: 1px, @borderStyle: solid, @borderColor: #e4e4e4, @borderPos: bottom) {

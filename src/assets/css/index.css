@@ -98,7 +98,6 @@ body {
   border-radius: 5px;
   color: #83c3ff;
   display: inline-block;
-  font-size: 1rem;
 }
 .evaluate__score__item__lf .icon_answer {
   padding: 2px;
@@ -108,7 +107,6 @@ body {
   border-radius: 5px;
   color: #f99390;
   display: inline-block;
-  font-size: 1rem;
 }
 .evaluate__score__item__rt {
   flex: 1;
